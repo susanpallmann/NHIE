@@ -9,7 +9,7 @@ function getNewRandomNumber() {
     let rolledNumber = getRandomNumber(1, promptsLength);
     if (seenPrompts.includes(rolledNumber)) {
         console.log("we've seen this one before");
-        getNewRandomNumber();
+        return getNewRandomNumber();
     } else {
         return rolledNumber;
     }
