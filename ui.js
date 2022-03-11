@@ -21,11 +21,11 @@ $('document').ready(function() {
             let promptNumber = getNewRandomNumber();
             seenPrompts.push(promptNumber);
             $('#prompt').fadeToggle()
-                        .text(prompts[promptNumber])
-                        .fadeToggle();
+                        .delay(400).text(prompts[promptNumber])
+                        .delay(100)..fadeToggle();
             $('#number').fadeToggle()
-                        .text(promptNumber)
-                        .fadeToggle();
+                        .delay(400)..text(promptNumber)
+                        .delay(100)..fadeToggle();
        }
     });
 });
