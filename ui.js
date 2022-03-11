@@ -56,6 +56,7 @@ function generatePrompt() {
         }
 
         let newPattern = getRandomNumber(0, 8);
+        let patternSize = getRandomNumber(6, 20);
         $('body').removeClass('pattern-squiggle');
         $('body').removeClass('pattern-bubble');
         $('body').removeClass('pattern-wave');
@@ -66,6 +67,7 @@ function generatePrompt() {
         $('body').removeClass('pattern-hexagons');
         $('body').removeClass('pattern-random');
         $('body').addClass(patterns[newPattern]);
+        $('body').css('background-size', patternSize);
 
     }, 800);
 }
