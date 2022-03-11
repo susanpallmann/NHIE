@@ -10,26 +10,38 @@ body {
   height: 100%;
 }
 
+main {
+  height: 100%;
+}
+
+body main .container {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+body main .container .row {
+  height: 100%;
+}
+
+#game {
+  margin-top: "";
+  display: flex;
+  margin-bottom: 10%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+}
+
+header {
+  position: absolute;
+}
+
 #title {
   font-weight: 600;
   margin: 0;
   padding-left: 20px;
   padding-top: 10px;
   font-size: 24px;
-}
-
-#copyright {
-  margin: 0;
-  text-align: center;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  padding: 10px;
-  font-size: 12px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 #prompt {
@@ -72,6 +84,20 @@ footer {
 .light a:hover, .light a:focus, .light a:active {
   color: #000;
   text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#copyright {
+  margin: 0;
+  text-align: center;
 }
 
 .pattern-squiggle {
