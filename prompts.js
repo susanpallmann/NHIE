@@ -1,5 +1,6 @@
 let prompts = [
     "Never have I ever slept on the floor.",
+    "Never have I ever slept on the floor.",
     "Never have I ever traveled alone.",
     "Never have I ever broken someone’s nose.",
     "Never have I ever got lost in a mall.",
