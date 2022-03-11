@@ -130,7 +130,7 @@ let prompts = [
     "Never have I ever cheated on an exam.",
     "Never have I ever been in a car accident.",
     "Never have I ever eaten food off of someone’s body.",
-    "Never have I ever completely change university majors halfway through.",
+    "Never have I ever completely changed university majors halfway through.",
     "Never have I ever fell asleep in the shower.",
     "Never have I ever slept in an airport.",
     "Never have I ever gone to a place just for the sake of taking a specific photo or video for social media.",
