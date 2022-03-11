@@ -20,11 +20,16 @@ $('document').ready(function() {
             // user has pressed space
             let promptNumber = getNewRandomNumber();
             seenPrompts.push(promptNumber);
-            $('#prompt').fadeToggle(400);
+            $('#prompt').fadeToggle(800);
             setTimeout(function () {
                 $("#prompt").text(prompts[promptNumber]);
                 $('#prompt').fadeToggle();
-            }, 400);
+            }, 800);
+            $('#number').fadeToggle(800);
+            setTimeout(function () {
+                $("#number").text(promptNumber);
+                $('#number').fadeToggle();
+            }, 800);
         }
     });
 });
