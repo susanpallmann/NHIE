@@ -1,4 +1,4 @@
-const promptsLength = prompts.length();
+const promptsLength = prompts.length;
 let seenPrompts = [];
 
 function getRandomNumber(min, max) {
