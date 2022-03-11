@@ -203,7 +203,7 @@ let prompts = [
     "Never have I ever recorded myself crying.",
     "Never have I ever fell asleep during a date.",
     "Never have I ever walked in on someone in a public bathroom.",
-    "Never have I ever been to a str!p club.",
+    "Never have I ever been to a strip club.",
     "Never have I ever seen a dead body.",
     "Never have I ever taken pictures of meals before eating.",
     "Never have I ever pretended to be someone I’m not.",
