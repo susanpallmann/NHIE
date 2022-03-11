@@ -2,10 +2,10 @@ const promptsLength = prompts.length - 1;
 let seenPrompts = [];
 let patterns = [
     'pattern-squiggle',
-    '.pattern-bubble',
-    '.pattern-wave',
-    '.pattern-clouds',
-    '.pattern-blobs'
+    'pattern-bubble',
+    'pattern-wave',
+    'pattern-clouds',
+    'pattern-blobs'
 ];
 
 function getRandomNumber(min, max) {
