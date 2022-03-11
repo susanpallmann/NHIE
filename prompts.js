@@ -121,7 +121,7 @@ let prompts = [
     "Never have I ever been in a snow storm.",
     "Never have I ever mixed salty and sweet popcorn.",
     "Never have I ever thought of hurting myself.",
-    "Never have I ever catfished someone.v
+    "Never have I ever catfished someone.",
     "Never have I ever fallen asleep while taking public transportation.",
     "Never have I ever bought more books, knowing I will never read them all.",
     "Never have I ever peed in the shower.",
