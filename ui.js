@@ -53,8 +53,13 @@ $('document').ready(function() {
                     $('body').addClass('dark');
                 }
                 
-                let pattern = getRandomNumber(1, 360);
-                $('body').css('background-color', `hsl(${hue}, 70%, 70%)`);
+                let newPattern = getRandomNumber(1, 5);
+                $('body').removeClass('pattern-squiggle');
+                $('body').removeClass('pattern-bubble');
+                $('body').removeClass('pattern-wave');
+                $('body').removeClass('pattern-clouds');
+                $('body').removeClass('pattern-blobs');
+                $('body').addClass(patterns[newPattern]);
                 
             }, 800);
             
