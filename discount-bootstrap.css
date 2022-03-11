@@ -9,7 +9,7 @@
 /* 'Discount Bootstrap' Responsive Grid (Mobile First) */
 .container {
   margin:auto;
-  max-width: 924px;
+  max-width: 1200px;
 }
 .container-fluid {
   width: 100%;
@@ -37,7 +37,7 @@
   margin-top: 5em;
 }
 /* Major Breakpoint || Desktop & Up */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .column.hybrid-row .column p {
     padding-right: 1em !important;
   }
@@ -170,7 +170,7 @@
   }
 }
 /* Major Breakpoint || Desktop & Up */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .column {
   }
   .column.span1 {
