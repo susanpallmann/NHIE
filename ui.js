@@ -5,7 +5,11 @@ let patterns = [
     'pattern-bubble',
     'pattern-wave',
     'pattern-clouds',
-    'pattern-blobs'
+    'pattern-blobs',
+    'pattern-squares',
+    'pattern-triangles',
+    'pattern-hexagons',
+    'pattern-random'
 ];
 
 function getRandomNumber(min, max) {
@@ -53,12 +57,16 @@ $('document').ready(function() {
                     $('body').addClass('dark');
                 }
                 
-                let newPattern = getRandomNumber(0, 4);
+                let newPattern = getRandomNumber(0, 8);
                 $('body').removeClass('pattern-squiggle');
                 $('body').removeClass('pattern-bubble');
                 $('body').removeClass('pattern-wave');
                 $('body').removeClass('pattern-clouds');
                 $('body').removeClass('pattern-blobs');
+                $('body').removeClass('pattern-squares');
+                $('body').removeClass('pattern-triangles');
+                $('body').removeClass('pattern-hexagons');
+                $('body').removeClass('pattern-random');
                 $('body').addClass(patterns[newPattern]);
                 
             }, 800);
