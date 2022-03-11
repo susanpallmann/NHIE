@@ -7,11 +7,13 @@ body {
 #prompt {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+  font-size: 87px;
 }
 
 #number {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 47px;
 }
 
 .dark {
