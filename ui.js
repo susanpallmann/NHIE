@@ -29,7 +29,7 @@ $('document').ready(function() {
                 $("#prompt").text(prompts[promptNumber]);
                 $('#prompt').fadeToggle();
                 
-                $("#number").text(promptNumber);
+                $("#number").text('#' + promptNumber);
                 $('#number').fadeToggle();
                 
                 let hue = getRandomNumber(1, 360);
