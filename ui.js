@@ -8,7 +8,6 @@ function getRandomNumber(min, max) {
 function getNewRandomNumber() {
     let rolledNumber = getRandomNumber(1, promptsLength);
     if (seenPrompts.includes(rolledNumber)) {
-        console.log("we've seen this one before");
         return getNewRandomNumber();
     } else {
         return rolledNumber;
@@ -20,9 +19,13 @@ $('document').ready(function() {
         if (e.keyCode == 32) {
             // user has pressed space
             let promptNumber = getNewRandomNumber();
-            console.log(promptNumber);
-            console.log(prompts[promptNumber]);
             seenPrompts.push(promptNumber);
+            $('#prompt').fadeToggle()
+                        .text(prompts[promptNumber])
+                        .fadeToggle();
+            $('#number').fadeToggle()
+                        .text(promptNumber)
+                        .fadeToggle();
        }
     });
 });
