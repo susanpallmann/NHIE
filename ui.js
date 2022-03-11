@@ -67,7 +67,7 @@ function generatePrompt() {
         $('body').removeClass('pattern-hexagons');
         $('body').removeClass('pattern-random');
         $('body').addClass(patterns[newPattern]);
-        $('body').css('background-size', patternSize);
+        $('body').css('background-size', patternSize + '%');
 
     }, 800);
 }
