@@ -32,6 +32,11 @@ body main .container .row {
   margin-top: 0;
 }
 
+#hint-desktop {
+  margin-top: 20px;
+  text-align: center;
+}
+
 header {
   position: absolute;
 }
