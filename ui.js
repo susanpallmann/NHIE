@@ -22,10 +22,10 @@ $('document').ready(function() {
             seenPrompts.push(promptNumber);
             $('#prompt').fadeToggle()
                         .delay(400).text(prompts[promptNumber])
-                        .delay(100)..fadeToggle();
+                        .delay(100).fadeToggle();
             $('#number').fadeToggle()
-                        .delay(400)..text(promptNumber)
-                        .delay(100)..fadeToggle();
+                        .delay(400).text(promptNumber)
+                        .delay(100).fadeToggle();
        }
     });
 });
