@@ -20,17 +20,12 @@ $('document').ready(function() {
             // user has pressed space
             let promptNumber = getNewRandomNumber();
             seenPrompts.push(promptNumber);
-            $('#prompt').fadeToggle(400)
-                        .setTimeout(function () {
-                            $("#prompt").text(prompts[promptNumber]);
-                        }, 400)
-                        .delay(100).fadeToggle();
-            $('#number').fadeToggle(400)
-                        .setTimeout(function () {
-                            $("#number").text(prompts[promptNumber]);
-                        }, 400)
-                        .delay(100).fadeToggle();
-       }
+            $('#prompt').fadeToggle(400);
+            setTimeout(function () {
+                $("#prompt").text(prompts[promptNumber]);
+                $('#prompt').fadeToggle();
+            }, 400);
+        }
     });
 });
 // work
