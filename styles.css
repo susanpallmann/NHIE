@@ -18,6 +18,20 @@ body {
   font-size: 24px;
 }
 
+#copyright {
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 #prompt {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
