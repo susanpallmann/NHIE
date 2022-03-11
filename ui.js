@@ -1,4 +1,4 @@
-const promptsLength = prompts.length;
+const promptsLength = prompts.length - 1;
 let seenPrompts = [];
 let patterns = [
     'pattern-squiggle',
