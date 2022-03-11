@@ -75,6 +75,9 @@ $('document').ready(function() {
     $('body').keyup(function(e) {
         if (e.keyCode == 32) {
             generatePrompt();
+            if ($('#hint-desktop').length) {
+                $('#hint-desktop').fadeToggle(800);
+            }
         }
     });
 });
