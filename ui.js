@@ -1,5 +1,12 @@
 const promptsLength = prompts.length;
 let seenPrompts = [];
+let patterns = [
+    'pattern-squiggle',
+    '.pattern-bubble',
+    '.pattern-wave',
+    '.pattern-clouds',
+    '.pattern-blobs'
+];
 
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -45,6 +52,9 @@ $('document').ready(function() {
                     $('body').removeClass('light');
                     $('body').addClass('dark');
                 }
+                
+                let pattern = getRandomNumber(1, 360);
+                $('body').css('background-color', `hsl(${hue}, 70%, 70%)`);
                 
             }, 800);
             
