@@ -20,8 +20,9 @@ $('document').ready(function() {
         if (e.keyCode == 32) {
             // user has pressed space
             let promptNumber = getNewRandomNumber();
+            console.log(promptNumber);
             console.log(prompts[promptNumber]);
-            seenPrompts.append(promptNumber);
+            seenPrompts.push(promptNumber);
        }
     });
 });
