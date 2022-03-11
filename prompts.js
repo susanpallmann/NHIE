@@ -323,6 +323,5 @@ let prompts = [
     "Never have I ever been in handcuffs.",
     "Never have I ever fallen asleep in the cinema.",
     "Never have I ever done something I regret.",
-    "Never have I ever picked my nose in public.",
-    "Never have I ever taken part in a talent show."
+    "Never have I ever picked my nose in public."
 ];
