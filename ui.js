@@ -53,7 +53,7 @@ $('document').ready(function() {
                     $('body').addClass('dark');
                 }
                 
-                let newPattern = getRandomNumber(1, 5);
+                let newPattern = getRandomNumber(0, 4);
                 $('body').removeClass('pattern-squiggle');
                 $('body').removeClass('pattern-bubble');
                 $('body').removeClass('pattern-wave');
